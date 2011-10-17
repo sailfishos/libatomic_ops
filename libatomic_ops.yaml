@@ -1,0 +1,25 @@
+Name: libatomic_ops
+Summary: Atomic memory update operations
+Version: 1.2
+Release: 1
+Group: Development/Libraries
+License: GPL/MIT
+URL: http://www.hpl.hp.com/research/linux/atomic_ops/
+Sources:
+    - http://www.hpl.hp.com/research/linux/atomic_ops/download/%{name}-%{version}.tar.gz
+Patches:
+    - libatomic_ops-1.2-ppclwzfix.patch
+Description: "Description: %{summary}"
+
+PkgBR:
+    - coreutils
+Configure: configure
+Builder: make
+SubPackages:
+    - Name: devel
+      Summary: Atomic memory update operations
+      Group: Development/Libraries
+      Description: "Description: %{summary}"
+      Requires:
+          - "%{name} >= %{version}"
+
