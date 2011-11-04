@@ -1,7 +1,0 @@
-<package project="home:stskeeps:qtmobilitywebkit" name="libatomic_ops">
-  <title>Atomic memory update operations</title>
-  <description>Description: %{summary}
-
-</description>
-  <url>http://www.hpl.hp.com/research/linux/atomic_ops/</url>
-</package>
