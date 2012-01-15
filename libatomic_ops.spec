@@ -16,6 +16,7 @@ URL:        http://www.hpl.hp.com/research/linux/atomic_ops/
 Source0:    http://www.hpl.hp.com/research/linux/atomic_ops/download/%{name}-%{version}.tar.gz
 Source100:  libatomic_ops.yaml
 Patch0:     libatomic_ops-1.2-ppclwzfix.patch
+Patch1:     libatomic_ops-1.2-mips.patch
 BuildRequires:  coreutils
 
 
@@ -38,6 +39,8 @@ Description: %{summary}
 
 # libatomic_ops-1.2-ppclwzfix.patch
 %patch0 -p1
+# libatomic_ops-1.2-mips.patch
+%patch1 -p1
 # >> setup
 # << setup
 

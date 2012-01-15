@@ -9,6 +9,7 @@ Sources:
     - http://www.hpl.hp.com/research/linux/atomic_ops/download/%{name}-%{version}.tar.gz
 Patches:
     - libatomic_ops-1.2-ppclwzfix.patch
+    - libatomic_ops-1.2-mips.patch
 Description: "Description: %{summary}"
 
 PkgBR:

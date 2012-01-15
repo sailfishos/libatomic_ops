@@ -1,3 +1,6 @@
+* Sun Jan 15 2012 Carsten Munk <carsten.munk@gmail.com> - 1.2
+- Add MIPS support, libatomic_ops-1.2-mips.patch
+
 * Mon Oct 17 2011 Marko Saukko <marko.saukko@cybercom.com> - 1.2
 - Added spectacle.
 
