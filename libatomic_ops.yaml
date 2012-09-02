@@ -1,17 +1,19 @@
 Name: libatomic_ops
 Summary: Atomic memory update operations
-Version: 1.2
+Version: 7.2d
 Release: 1
 Group: Development/Libraries
 License: GPL/MIT
 URL: http://www.hpl.hp.com/research/linux/atomic_ops/
 Sources:
     - http://www.hpl.hp.com/research/linux/atomic_ops/download/%{name}-%{version}.tar.gz
-Patches:
-    - libatomic_ops-1.2-ppclwzfix.patch
-    - libatomic_ops-1.2-mips.patch
-Description: "Description: %{summary}"
-
+Description:
+     Provides implementations for atomic memory update operations on a
+     number of architectures. This allows direct use of these in
+     reasonably portable code. Unlike earlier similar packages, this
+     one explicitly considers memory barrier semantics, and allows the
+     construction of code that involves minimum overhead across a
+     variety of architectures
 PkgBR:
     - coreutils
 Configure: configure
@@ -23,4 +25,3 @@ SubPackages:
       Description: "Description: %{summary}"
       Requires:
           - "%{name} >= %{version}"
-

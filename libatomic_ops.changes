@@ -1,3 +1,7 @@
+* Fri Aug 31 2012 David Greaves <david@dgreaves.com> - 7.2d-1
+- Update to latest upstream to fix ARM Thumb issues
+  both ppc and mips patches are applied upstream
+
 * Sun Jan 15 2012 Carsten Munk <carsten.munk@gmail.com> - 1.2
 - Add MIPS support, libatomic_ops-1.2-mips.patch
 
