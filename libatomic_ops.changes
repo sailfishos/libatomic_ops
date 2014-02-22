@@ -1,3 +1,6 @@
+* Fri Feb 21 2014 Oleg Girko <oleg.girko@jolla.com> - 7.4.0
+- Update to latest upstream to add aarch64 support
+
 * Fri Aug 31 2012 David Greaves <david@dgreaves.com> - 7.2d-1
 - Update to latest upstream to fix ARM Thumb issues
   both ppc and mips patches are applied upstream

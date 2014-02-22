@@ -10,12 +10,12 @@ Name:       libatomic_ops
 %define keepstatic 1
 
 Summary:    Atomic memory update operations
-Version:    7.2d
+Version:    7.4.0
 Release:    1
 Group:      Development/Libraries
 License:    GPL/MIT
 URL:        http://www.hpl.hp.com/research/linux/atomic_ops/
-Source0:    http://www.hpl.hp.com/research/linux/atomic_ops/download/%{name}-%{version}.tar.gz
+Source0:    http://www.ivmaisoft.com/atomic_ops/download/%{name}-%{version}.tar.gz
 Source100:  libatomic_ops.yaml
 BuildRequires:  coreutils
 
@@ -33,9 +33,10 @@ Description: %{summary}
 
 
 %prep
-%setup -q -n %{name}-7.2
+%setup -q
 
 # >> setup
+chmod a-x AUTHORS ChangeLog COPYING README.md
 # << setup
 
 %build
@@ -85,7 +86,7 @@ done
 %files devel
 %defattr(-,root,root,-)
 # >> files devel
-%doc AUTHORS ChangeLog COPYING INSTALL NEWS README
+%doc AUTHORS ChangeLog COPYING README.md
 %{_includedir}/atomic_ops.h
 %{_includedir}/atomic_ops_malloc.h
 %{_includedir}/atomic_ops_stack.h

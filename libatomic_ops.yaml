@@ -6,7 +6,7 @@ Group: Development/Libraries
 License: GPL/MIT
 URL: http://www.hpl.hp.com/research/linux/atomic_ops/
 Sources:
-    - http://www.hpl.hp.com/research/linux/atomic_ops/download/%{name}-%{version}.tar.gz
+    - http://www.ivmaisoft.com/atomic_ops/download/%{name}-%{version}.tar.gz
 Description:
      Provides implementations for atomic memory update operations on a
      number of architectures. This allows direct use of these in
