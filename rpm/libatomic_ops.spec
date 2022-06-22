@@ -5,7 +5,6 @@ Name:       libatomic_ops
 Summary:    Atomic memory update operations
 Version:    7.4.4
 Release:    1
-Group:      Development/Libraries
 License:    GPL/MIT
 URL:        https://github.com/sailfishos/libatomic_ops
 Source0:    %{name}-%{version}.tar.gz
@@ -16,7 +15,6 @@ Provides implementations for atomic memory update operations on a number of arch
 
 %package devel
 Summary:    Atomic memory update operations
-Group:      Development/Libraries
 
 %description devel
 Description: %{summary}
