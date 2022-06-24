@@ -5,10 +5,9 @@ Name:       libatomic_ops
 Summary:    Atomic memory update operations
 Version:    7.4.4
 Release:    1
-Group:      Development/Libraries
 License:    GPL/MIT
-URL:        http://www.hpl.hp.com/research/linux/atomic_ops/
-Source0:    http://www.ivmaisoft.com/atomic_ops/download/%{name}-%{version}.tar.gz
+URL:        https://github.com/sailfishos/libatomic_ops
+Source0:    %{name}-%{version}.tar.gz
 BuildRequires:  coreutils
 
 %description
@@ -16,7 +15,6 @@ Provides implementations for atomic memory update operations on a number of arch
 
 %package devel
 Summary:    Atomic memory update operations
-Group:      Development/Libraries
 
 %description devel
 Description: %{summary}
